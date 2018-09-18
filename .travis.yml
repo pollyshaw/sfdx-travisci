@@ -25,5 +25,4 @@ script:
 - sfdx force:org:display -u ciorg
 - sfdx force:source:push -u ciorg
 - sfdx force:apex:test:run -u ciorg --wait 10
-- sfdx force:user:password:generate --targetusername $USERNAME
 #- sfdx force:org:delete -u ciorg -p
